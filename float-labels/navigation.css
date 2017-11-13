@@ -1,0 +1,21 @@
+nav {
+  margin:0 0 var(--margin-vertical);
+  overflow:hidden;
+  background:var(--color-default);
+  padding:var(--padding-vertical) var(--padding-horizontal);
+}
+
+nav ul.left  {float:left;}
+nav ul.right {float:right;}
+
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  color:var(--nav-link-color);
+  text-decroation:none;
+}
+nav ul li a:hover {
+  color:var(--nav-link-color-hover);
+  border-bottom:none;
+}

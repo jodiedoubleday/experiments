@@ -1,0 +1,14 @@
+:root {
+  --font-color:         #333333;
+  --font-color-inverse: #ffffff;
+
+  --color-default:      #868e96;
+  --color-primary:      #007bff;
+  --color-secondary:    #868e96;
+  --color-success:      #28a745;
+  --color-error:        #dc3545;
+  --color-info:         #17a2b8;
+  --color-warning:      #ffc107;
+
+  --label-color:        #595959;
+}

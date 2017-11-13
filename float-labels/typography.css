@@ -1,0 +1,35 @@
+body {
+  font-size: var(--body-font-size);
+  font-family: var(--body-font-family);
+  font-weight: var(--body-font-weight);
+}
+
+h1, .h1 {font-size: var(--h1-font-size)}
+h2, .h2 {font-size: var(--h2-font-size)}
+h3, .h3 {font-size: var(--h3-font-size)}
+h4, .h4 {font-size: var(--h4-font-size)}
+h5, .h5 {font-size: var(--h5-font-size)}
+h6, .h6 {font-size: var(--h6-font-size)}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-weight: 400;
+  padding-top: calc(var(--padding-vertical) * 2);
+}
+
+a {
+  color:var(--link-color);
+  text-decoration:none;
+}
+a:hover {
+  text-decoration:none;
+  background-image:linear-gradient(to right, currentColor 0%, currentColor 100%);
+  background-repeat:repeat-x;
+  background-position: bottom 0.05em center;
+  background-size: 100% 0.05em;
+}
+p a:hover {text-shadow:0.05em 0 0 #fff, -0.05em 0 0 #fff, 0 0.05em 0 #fff, 0 -0.05em 0 #fff, 0.1em 0 0 #fff, -0.1em 0 0 #fff, 0 0.1em 0 #fff, 0 -0.1em 0 #fff;}

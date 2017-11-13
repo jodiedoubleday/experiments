@@ -1,0 +1,19 @@
+.deck.flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.card {
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, .125);
+  border-radius: var(--border-radius);
+  flex: 1 0 auto;
+}
+.card-header {
+  padding: var(--padding-vertical) var(--padding-horizontal) calc(var(--padding-vertical) * 2);
+  border-bottom: 1px solid rgba(0, 0, 0, .125);
+  background-color: rgba(0, 0, 0, .03)
+}
+.card-body {
+  padding: var(--padding-vertical) var(--padding-horizontal);
+}
