@@ -1,9 +1,9 @@
 :root {
-  --font-color:         #333333;
+  --font-color:         #606c71;
   --font-color-inverse: #ffffff;
 
-  --color-default:      #333333;
-  --color-primary:      #0066ff;
+  --color-default:      #606c71;
+  --color-primary:      #880e4f;
   --color-secondary:    #868e96;
   --color-success:      #28a745;
   --color-error:        #dc3545;

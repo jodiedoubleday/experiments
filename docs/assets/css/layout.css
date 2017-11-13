@@ -1,3 +1,7 @@
+body {
+  background:var(--body-background);
+}
+
 .container {
   width: 100%;
   max-width: var(--max-viewport-width);
