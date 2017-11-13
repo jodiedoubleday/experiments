@@ -7,16 +7,23 @@
     <title>Example Payment Page</title>
   </head>
   <body>
-    <link rel="stylesheet" href="reset.css">
+    <link rel="preload" href="reset.css" as="style" onload="this.rel='stylesheet'">
+    <link rel="preload" href="variables.css" as="style" onload="this.rel='stylesheet'">
+    <link rel="preload" href="grid.css" as="style" onload="this.rel='stylesheet'">
+    <link rel="preload" href="layout.css" as="style" onload="this.rel='stylesheet'">
+    <link rel="preload" href="colors.css" as="style" onload="this.rel='stylesheet'">
+    <link rel="preload" href="backgrounds.css" as="style" onload="this.rel='stylesheet'">
+    <link rel="preload" href="typography.css" as="style" onload="this.rel='stylesheet'">
+    <link rel="preload" href="navigation.css" as="style" onload="this.rel='stylesheet'">
+
+    <!-- <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="variables.css">
     <link rel="stylesheet" href="grid.css">
     <link rel="stylesheet" href="layout.css">
     <link rel="stylesheet" href="colors.css">
     <link rel="stylesheet" href="backgrounds.css">
     <link rel="stylesheet" href="typography.css">
-    <link rel="stylesheet" href="forms.css">
-    <link rel="stylesheet" href="cards.css">
-    <link rel="stylesheet" href="navigation.css">
+    <link rel="stylesheet" href="navigation.css"> -->
     <nav role="navigation">
       <div class="container">
         <ul class="right">
@@ -26,10 +33,9 @@
       </div>
     </nav>
     <div class="container">
-      <a href="https://google.com">Hello</a>
-      <p><a href="https://jodie.com">abcdefghijklmnopqrstuvwxyz</a></p>
       <div class="grid">
         <main role="main">
+          <link rel="preload" href="cards.css" as="style" onload="this.rel='stylesheet'">
           <div class="card bg-primary">
             <div class="card-header">
               <h2>
@@ -38,6 +44,7 @@
               </h2>
             </div>
             <div class="card-body">
+              <link rel="preload" href="forms.css"" as="style" onload="this.rel='stylesheet'">
               <form>
                 <fieldset>
                   <legend>Billing Details</legend>
