@@ -14,6 +14,11 @@
     <link rel="mask-icon" href="safari-pinned-tab.svg" color="#e05b49">
     <meta name="theme-color" content="#ffffff">
 
+    <!-- CSS Preload -->
+    <script defer src="assets/js/loadCSS.js"></script>
+    <script defer src="assets/js/cssrelpreload.js"></script>
+  </head>
+  <body>
     <!-- CSS (not component) -->
     <link rel="preload" href="assets/css/reset.css" as="style" onload="this.rel='stylesheet'">
     <link rel="preload" href="assets/css/variables.css" as="style" onload="this.rel='stylesheet'">
@@ -23,11 +28,6 @@
     <link rel="preload" href="assets/css/backgrounds.css" as="style" onload="this.rel='stylesheet'">
     <link rel="preload" href="assets/css/typography.css" as="style" onload="this.rel='stylesheet'">
 
-    <!-- CSS Preload -->
-    <script defer src="assets/js/loadCSS.js"></script>
-    <script defer src="assets/js/cssrelpreload.js"></script>
-  </head>
-  <body>
     <link rel="preload" href="assets/css/navigation.css" as="style" onload="this.rel='stylesheet'">
     <nav role="navigation">
       <div class="container">
