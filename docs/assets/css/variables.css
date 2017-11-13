@@ -23,6 +23,7 @@
 
   --grid-columns: 12;
   --grid-gutter: 2vw;
+  --max-viewport-width: 1200px;
 
   --nav-link-color: #fff;
   --nav-link-color-hover: #ddd;
