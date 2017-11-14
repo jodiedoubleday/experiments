@@ -5,3 +5,6 @@ header {
   padding:calc(var(--padding-vertical) * 5) calc(var(--padding-horizontal));
   margin-bottom:var(--margin-vertical);
 }
+header p {
+  max-width:60em;
+}
