@@ -19,89 +19,73 @@
   </head>
   <body>
     <!-- CSS (not component) - Maybe Inline/Critical? -->
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/variables.css">
-    <link rel="stylesheet" href="assets/css/grid.css">
-    <link rel="stylesheet" href="assets/css/layout.css">
-    <link rel="stylesheet" href="assets/css/colors.css">
-    <link rel="stylesheet" href="assets/css/typography.css">
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/variables.css">
+    <link rel="stylesheet" href="../assets/css/layout.css">
+    <link rel="stylesheet" href="../assets/css/colors.css">
+    <link rel="stylesheet" href="../assets/css/typography.css">
 
-    <link rel="stylesheet" href="assets/css/banner.css">
-    <header role="banner">
+    <link rel="stylesheet" href="../assets/css/header.css">
+    <header class="header-primary" role="banner">
       <div class="container">
-        <link rel="stylesheet" href="assets/css/logo.css">
+        <link rel="stylesheet" href="../assets/css/logo.css">
         <div class="logo"><a href="/">JD - Experiments</a></div>
         <h1 class="h6">Floating Labels</h1>
         <p>The Floating labels pattern is fairly common place across the web. I wanted to see how easy it was to create the pattern using just CSS. This demo escalated and uses a whole bunch of new functioality.</p>
       </div>
     </header>
     <div class="container">
-      <div class="grid">
-        <main role="main">
-          <link rel="stylesheet" href="assets/css/cards.css">
-          <div class="card card-primary">
-            <div class="card-header">
-              <h2>
-                <svg style="fill:currentColor" height="1em" aria-hidden="true" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M12 17c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm6-9h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zM8.9 6c0-1.71 1.39-3.1 3.1-3.1s3.1 1.39 3.1 3.1v2H8.9V6zM18 20H6V10h12v10z"/></svg>
-                Secure Payment
-              </h2>
-            </div>
-            <div class="card-body">
-              <link rel="stylesheet" href="assets/css/forms.css">
-              <form>
-                <fieldset>
-                  <legend>Billing Details</legend>
-                  <div class="form-input">
-                    <input type="email" id="email" name="email" autocomplete="email" value="" onkeyup="this.setAttribute('value', this.value);" required>
-                    <label for="email">Email</label>
-                  </div>
-                  <div class="form-input">
-                    <input type="text" id="name" name="name" autocomplete="name" value="" onkeyup="this.setAttribute('value', this.value);" required>
-                    <label for="name">Name</label>
-                  </div>
-                  <div class="form-input">
-                    <input type="tel" id="telephone" name="telephone" autocomplete="tel" value="" pattern="^\+?([0-9 ]){9,13}$" onkeyup="this.setAttribute('value', this.value);" required>
-                    <label for="telephone">Phone number</label>
-                  </div>
-                  <div class="form-input">
-                    <input type="text" id="postcode" name="postcode" autocomplete="postcode" pattern="^(([gG][iI][rR] {0,}0[aA]{2})|((([a-pr-uwyzA-PR-UWYZ][a-hk-yA-HK-Y]?[0-9][0-9]?)|(([a-pr-uwyzA-PR-UWYZ][0-9][a-hjkstuwA-HJKSTUW])|([a-pr-uwyzA-PR-UWYZ][a-hk-yA-HK-Y][0-9][abehmnprv-yABEHMNPRV-Y]))) {0,}[0-9][abd-hjlnp-uw-zABD-HJLNP-UW-Z]{2}))$"  value="" onkeyup="this.setAttribute('value', this.value);" required>
-                    <label for="postcode">Postcode</label>
-                  </div>
-                </fieldset>
-                <fieldset>
-                  <legend>Payment Details</legend>
-                  <div class="form-input">
-                    <input type="text" id="cc-number" name="cc-number" pattern="[0-9 ]{13,19}"  value="" onkeyup="this.setAttribute('value', this.value);" required>
-                    <label for="cc-number">Card Number</label>
-                  </div>
-                  <div class="form-input">
-                    <input type="text" id="cc-expiry" name="cc-expiry" pattern="^(?:0?[1-9]|1[0-2]) *\/ *[2]?[0]?[1-9][0-9]$"  value="" onkeyup="this.setAttribute('value', this.value);" required>
-                    <label for="cc-expiry">Expiry date</label>
-                  </div>
-                  <div class="form-input">
-                    <input type="text" id="cc-cv2" name="cc-cv2" pattern="[0-9 ]{3,4}"  value="" onkeyup="this.setAttribute('value', this.value);" required>
-                    <label for="cc-cv2">Security Code</label>
-                  </div>
-                </fieldset>
-                <button type="submit">Make payment</button>
-              </form>
-            </div>
+      <main role="main">
+        <link rel="stylesheet" href="../assets/css/cards.css">
+        <div class="card card-secondary">
+          <div class="card-header">
+            <h2>
+              <svg style="fill:currentColor" height="1em" aria-hidden="true" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M12 17c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm6-9h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zM8.9 6c0-1.71 1.39-3.1 3.1-3.1s3.1 1.39 3.1 3.1v2H8.9V6zM18 20H6V10h12v10z"/></svg>
+              Secure Payment
+            </h2>
           </div>
-        </main>
-        <aside role="complementary">
-          <div class="card card-info">
-            <div class="card-header">
-              <h2>
-                <svg style="fill:currentColor" height="1em" aria-hidden="true" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/><path fill="none" d="M0 0h24v24H0z"/></svg>
-                Basket
-              </h2>
-            </div>
-            <div class="card-body">
-              Some Content
-            </div>
+          <div class="card-body">
+            <link rel="stylesheet" href="../assets/css/forms.css">
+            <form>
+              <fieldset>
+                <legend>Billing Details</legend>
+                <div class="form-input">
+                  <input type="email" id="email" name="email" autocomplete="email" value="" onkeyup="this.setAttribute('value', this.value);" required>
+                  <label for="email">Email</label>
+                </div>
+                <div class="form-input">
+                  <input type="text" id="name" name="name" autocomplete="name" value="" onkeyup="this.setAttribute('value', this.value);" required>
+                  <label for="name">Name</label>
+                </div>
+                <div class="form-input">
+                  <input type="tel" id="telephone" name="telephone" autocomplete="tel" value="" pattern="^\+?([0-9 ]){9,13}$" onkeyup="this.setAttribute('value', this.value);" required>
+                  <label for="telephone">Phone number</label>
+                </div>
+                <div class="form-input">
+                  <input type="text" id="postcode" name="postcode" autocomplete="postcode" pattern="^(([gG][iI][rR] {0,}0[aA]{2})|((([a-pr-uwyzA-PR-UWYZ][a-hk-yA-HK-Y]?[0-9][0-9]?)|(([a-pr-uwyzA-PR-UWYZ][0-9][a-hjkstuwA-HJKSTUW])|([a-pr-uwyzA-PR-UWYZ][a-hk-yA-HK-Y][0-9][abehmnprv-yABEHMNPRV-Y]))) {0,}[0-9][abd-hjlnp-uw-zABD-HJLNP-UW-Z]{2}))$"  value="" onkeyup="this.setAttribute('value', this.value);" required>
+                  <label for="postcode">Postcode</label>
+                </div>
+              </fieldset>
+              <fieldset>
+                <legend>Payment Details</legend>
+                <div class="form-input">
+                  <input type="text" id="cc-number" name="cc-number" pattern="[0-9 ]{13,19}"  value="" onkeyup="this.setAttribute('value', this.value);" required>
+                  <label for="cc-number">Card Number</label>
+                </div>
+                <div class="form-input">
+                  <input type="text" id="cc-expiry" name="cc-expiry" pattern="^(?:0?[1-9]|1[0-2]) *\/ *[2]?[0]?[1-9][0-9]$"  value="" onkeyup="this.setAttribute('value', this.value);" required>
+                  <label for="cc-expiry">Expiry date</label>
+                </div>
+                <div class="form-input">
+                  <input type="text" id="cc-cv2" name="cc-cv2" pattern="[0-9 ]{3,4}"  value="" onkeyup="this.setAttribute('value', this.value);" required>
+                  <label for="cc-cv2">Security Code</label>
+                </div>
+              </fieldset>
+              <button type="submit">Make payment</button>
+            </form>
           </div>
-        </aside>
-      </div>
+        </div>
+      </main>
     </div>
   </body>
 </html>
