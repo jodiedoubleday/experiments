@@ -20,9 +20,8 @@
   padding: var(--padding-vertical) var(--padding-horizontal);
 }
 
-.card-primary .card-header   {border-top:solid 4px var(--color-primary);}
-.card-secondary .card-header {border-top:solid 4px var(--color-secondary);}
-.card-success .card-header   {border-top:solid 4px var(--color-success);}
-.card-error .card-header     {border-top:solid 4px var(--color-error);}
-.card-info .card-header      {border-top:solid 4px var(--color-info);}
-.card-warning .card-header   {border-top:solid 4px var(--color-warning);}
+.card-primary .card-header     {border-top:solid 4px var(--color-primary);}
+.card-secondary .card-header   {border-top:solid 4px var(--color-secondary);}
+.card-experiments .card-header {border-top:solid 4px var(--color-success);}
+.card-error .card-header       {border-top:solid 4px var(--color-error);}
+.card-info .card-header        {border-top:solid 4px var(--color-info);}

@@ -11,7 +11,7 @@
   --link-color:#039be5;
   --body-background:rgb(37, 40, 48);
 
-  --line-height:var(--body-font-size);
+  --line-height:1.35;
 
   --h1-font-size:calc(var(--body-font-size) * 2);
   --h2-font-size:calc(var(--body-font-size) * 1.5);
@@ -20,7 +20,7 @@
   --h5-font-size:calc(var(--body-font-size) * .83);
   --h6-font-size:calc(var(--body-font-size) * .67);
 
-  --border-radius:.25em;
+  --border-radius:0;
 
   --grid-columns:12;
   --grid-gutter:2vw;

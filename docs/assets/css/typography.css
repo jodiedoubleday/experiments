@@ -2,6 +2,7 @@ body {
   font-size:var(--body-font-size);
   font-family:var(--body-font-family);
   font-weight:var(--body-font-weight);
+  line-height:var(--line-height);
   color:var(--font-color);
 }
 
@@ -20,6 +21,10 @@ h5, .h5,
 h6, .h6 {
   font-weight:400;
   padding-top:calc(var(--padding-vertical) * 2);
+}
+.h6 {
+  text-transform: uppercase;
+  margin-bottom:var(--margin-vertical);
 }
 
 a {
