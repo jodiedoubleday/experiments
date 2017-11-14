@@ -1,7 +1,7 @@
-.banner {
+header {
   background-color: var(--color-primary);
   background-image: linear-gradient(15deg,rgba(255,255,255,.05) 60%,transparent 60%), linear-gradient(-65deg,rgba(255,255,255,.05) 60%,transparent 60%);
   color:var(--font-color-inverse);
-  padding:calc(var(--padding-vertical) * 5) calc(var(--padding-horizontal) * 5);
+  padding:calc(var(--padding-vertical) * 5) calc(var(--padding-horizontal));
   margin-bottom:var(--margin-vertical);
 }
