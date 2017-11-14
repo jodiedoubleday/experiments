@@ -1,8 +1,0 @@
-.grid {
-  display: grid;
-  grid-template-columns: repeat(var(--grid-columns), 1fr);
-  grid-gap: var(--grid-gutter);
-  width: 100%;
-  justify-content: center;
-  align-content: center;
-}

@@ -1,8 +1,0 @@
-header {
-  background-image: linear-gradient(15deg,rgba(255,255,255,.05) 60%,transparent 60%), linear-gradient(-65deg,rgba(255,255,255,.05) 60%,transparent 60%);
-  color:var(--font-color-inverse);
-  padding:calc(var(--padding-vertical) * 5) 0;
-  margin-bottom:var(--margin-vertical);
-}
-header.header-primary {background-color: var(--color-primary);}
-header.header-secondary {background-color: var(--color-secondary);}

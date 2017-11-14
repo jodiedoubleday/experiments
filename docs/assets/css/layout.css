@@ -1,9 +1,0 @@
-.container {
-  width: 100%;
-  max-width: var(--max-viewport-width);
-  margin:0 auto;
-  padding:0 var(--padding-horizontal);
-}
-svg {
-  margin-bottom:-0.125em;
-}
